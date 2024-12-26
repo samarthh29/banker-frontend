@@ -1,0 +1,34 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.login, .dashboard, .unauthorized {
+  padding: 20px;
+  text-align: center;
+}
+
+.login button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard h2, .unauthorized h2 {
+  color: #333;
+}
+
+.unauthorized {
+  background-color: #ff6f61;
+  color: white;
+}
+
+.dashboard p, .unauthorized p {
+  margin: 10px 0;
+}
